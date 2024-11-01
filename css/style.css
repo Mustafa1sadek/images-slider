@@ -1,0 +1,51 @@
+
+.item
+{
+    position: relative;
+    margin: 10px;
+}
+.item-cap
+{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    text-align: center;
+    
+}
+.layer
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.slider
+{
+    background-image: url(../images/one.jpg);
+    background-size: 100% 100%;
+    width: 40%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+i
+{
+    color: #fff;
+}
+.close
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
